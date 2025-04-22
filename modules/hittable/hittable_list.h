@@ -21,6 +21,10 @@ public:
         bool hit_anything = false;
         auto closest_so_far = ray_t.max;
 
+        // is this really okay to be looping all the time?
+        // what if we just break the moment it no longer hits anything
+        // im sure this is the case, but wont be necessary in this smaller examples
+        // this essentially find nears object itself through variable closest_so_far
         for (const auto& object : objects) {
             if (object->hit(r, interval(ray_t.min, closest_so_far), temp_rec)) {
                 hit_anything = true;

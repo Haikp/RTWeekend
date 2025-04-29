@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/kelvin/CS/Projects/RTWeekend/src/main.cc" "CMakeFiles/app.dir/src/main.cc.o" "gcc" "CMakeFiles/app.dir/src/main.cc.o.d"
+  "/mnt/d/Projects/RayTracing/src/main.cc" "CMakeFiles/app.dir/src/main.cc.o" "gcc" "CMakeFiles/app.dir/src/main.cc.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
